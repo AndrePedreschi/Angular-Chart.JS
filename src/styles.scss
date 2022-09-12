@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+.chart-container {
+
+    width: 900px;
+    //height: 250px; //Ajustar no aspectRatio: do options
+    display: flex;
+    flex-direction: column;
+
+    .container1,
+    .container2,
+    .container3 {
+        display: flex;
+        flex-direction: column;
+
+        .vendas,
+        .gastos,
+        .consolidado {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+}
