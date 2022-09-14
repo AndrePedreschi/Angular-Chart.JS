@@ -1,6 +1,6 @@
 .chart-container {
 
-    width: 900px;
+    width: 550px;
     //height: 250px; //Ajustar no aspectRatio: do options
     display: flex;
     flex-direction: column;
@@ -16,6 +16,7 @@
         .consolidado {
             display: flex;
             flex-wrap: wrap;
+            gap: 50px;
         }
     }
 }

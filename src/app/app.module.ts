@@ -8,6 +8,8 @@ import { LineComponent } from './graficos/line/line.component';
 import { BarComponent } from './graficos/bar/bar.component';
 import { CashtrackComponent } from './graficos/cashtrack/cashtrack.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
